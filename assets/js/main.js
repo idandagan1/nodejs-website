@@ -99,6 +99,7 @@
 
 	
 	$('#submit-button').click(function(){
+		$('#submit-button').attr("disabled", true);
 		submitForm();
 	})
 
@@ -120,6 +121,7 @@
 				$('#thanks').fadeIn();
 			},
 			error: function (jqXhr, textStatus, errorThrown){ 
+				$('#submit-button').attr("disabled", false);
 				alert('something went wrong. please try again later..');
 			}
 		  });

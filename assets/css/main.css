@@ -3076,7 +3076,7 @@
 	#banner {
 	    background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #666;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/main.png");
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/main.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -3218,7 +3218,7 @@
 	#tta { 
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url(images/light-tl.svg), url(images/light-tr.svg), url(images/overlay.png), url(../../images/meetup1.jpeg);
+		background-image: url(images/light-tl.svg), url(images/light-tr.svg), url(images/overlay.png), url(../../images/meetup1.jpg);
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
@@ -3751,7 +3751,8 @@
 					display: block;
 					padding: 1em 0 0 0;
 					text-align: center;
-					width: 100%;
+					width: 70%;
+    				margin: 0 auto;
 				}
 
 					ul.actions li:first-child {
