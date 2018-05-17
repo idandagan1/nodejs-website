@@ -55,7 +55,7 @@
 
 	.img-box {
 		height: 200px;
-		width: auto !important;
+		width: 100% !important;
 		margin: 0 auto;
 	}
 
