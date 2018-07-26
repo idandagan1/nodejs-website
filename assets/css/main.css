@@ -2962,6 +2962,7 @@
 		#header .cover {
 			height: 47px;
     		width: 100%;
+    		height: 100%;
 			-moz-animation: none;
 			-webkit-animation: none;
 			-ms-animation: none;
