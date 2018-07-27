@@ -22,6 +22,10 @@
 		display: block;
 	}
 
+	.icon-sponsors {
+		width: 140px;
+	}
+
 	#thanks {
 		display: none;
 	}
@@ -3241,6 +3245,12 @@
 
 	#cta {
 		background: #8BC500;
+		color: #8BC500;
+		padding: 3.5em 0 4em 0;
+		text-align: center;
+	}
+
+	#sponsors {
 		color: #8BC500;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
