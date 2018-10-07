@@ -95,7 +95,7 @@
 	}
 
 	h5 {
-		font-size: 18px !important; 
+		font-size: 18px !important;
     	font-weight: 600 !important;
 	}
 
@@ -3078,6 +3078,18 @@
 
 /* Banner */
 
+	#coc-banner {
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #666;
+		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/meetup2.jpg");
+		background-position: top left,						center center;
+		background-repeat: repeat,							no-repeat;
+		background-size: auto,							cover;
+		color: #fff;
+		padding: 6em 0;
+		text-align: center;
+	}
+
 	#banner {
 	    background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #666;
@@ -3145,6 +3157,10 @@
 /* Main */
 
 	#main {
+		padding: 4em 0;
+	}
+
+	#coc-main {
 		padding: 4em 0;
 	}
 
@@ -3220,10 +3236,10 @@
 
 /* CTA */
 
-	#tta { 
+	#tta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url(images/light-tl.svg), url(images/light-tr.svg), url(images/overlay.png), url(../../images/meetup1.jpg);
+		background-image: url(images/light-tl.svg), url(images/light-tr.svg), url(images/overlay.png), url(../../images/meetup2.jpg);
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
 		color: #fff;
@@ -3696,6 +3712,10 @@
 
 			#main {
 				padding: 4em 0 0 0;
+			}
+
+			#coc-main {
+				padding: 4em 22px;
 			}
 
 				#main > header {
