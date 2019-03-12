@@ -3078,13 +3078,23 @@
 
 /* Banner */
 
+	#meetup-image {
+		background-attachment: scroll, scroll, scroll, fixed;
+		background-color: #666;
+		background-image: url("images/overlay.png"), url("../../images/2.jpg");
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+		text-align: center;
+	}
+
 	#coc-banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #666;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/meetup2.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-image: url("images/overlay.png"), url("../../images/meetup2.jpg");
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: #fff;
 		padding: 6em 0;
 		text-align: center;
