@@ -3627,6 +3627,10 @@
 				font-size: 11pt;
 			}
 
+			#tta {
+				display: none;
+			}
+
 			h2 {
 				font-size: 1.75em;
 				line-height: 1.35em;
@@ -3698,6 +3702,7 @@
 
 			#banner {
 				padding: 4em 0;
+				background-attachment: scroll;
 			}
 
 				#banner h2 {
