@@ -3286,6 +3286,12 @@
 			color: #000000;
 		}
 
+		.sonporsWrapper {
+			display: flex;
+    		align-items: center;
+    		justify-content: space-around;
+		}
+
 		#cta p {
 			color: #000000;
 			font-size: 16px;
